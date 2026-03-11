@@ -1,0 +1,21 @@
+Column Name,Description
+transaction_id,Unique identifier for the transaction.
+customer_id,Unique identifier for the customer making the transaction.
+timestamp,"Date and time when the transaction occurred, in ISO 8601 format with timezone."
+home_country,Country from which the transaction was initiated.
+source_currency,Currency used by the sender for the transaction.
+dest_currency,Currency received by the recipient.
+channel,"Channel through which the transaction occurred (e.g., web, mobile, ATM)."
+amount_src,Amount in the source currency.
+amount_usd,Equivalent amount of the transaction in USD (using conversion rates).
+fee,The transaction fee charged.
+ip_risk_score,Risk score associated with the IP address from which the transaction originated.
+kyc_tier,"Know Your Customer (KYC) verification level (e.g., standard, enhanced)."
+account_age_days,"Age of the customer's account, in days."
+device_trust_score,Trust score assigned to the device used for the transaction.
+chargeback_history_count,Number of chargebacks (disputes) associated with the customer's account.
+risk_score_internal,Internal risk score based on the transaction and account data.
+txn_velocity_1h,The velocity (rate) of transactions in the past 1 hour.
+txn_velocity_24h,The velocity (rate) of transactions in the past 24 hours.
+corridor_risk,Risk score related to the corridor (the remittance channel between countries) for the transaction.
+is_fraud,"Flag indicating if the transaction was flagged as fraud (1 for fraud, 0 for non-fraud)."
