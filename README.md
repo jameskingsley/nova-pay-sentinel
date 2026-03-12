@@ -42,6 +42,8 @@ XGBoost (Balanced via SMOTE)
 
 * Batch Processing: High-volume CSV screening for historical audit reporting.
 
+* Dashboard link: https://nova-pay-sentinel-euix2lpusszimewjvdentk.streamlit.app/
+
 
 ###### Explainability with SHAP
 Because I chose an interpretable linear model, we utilize the SHAP LinearExplainer to decompose the fraud probability into individual feature contributions.

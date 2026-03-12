@@ -131,7 +131,7 @@ if app_mode == "Single Transaction Audit":
 # BATCH FRAUD ANALYSIS 
 elif app_mode == "Batch Fraud Analysis":
     st.title("Batch Fraud Audit")
-    st.markdown("Upload a CSV file containing transaction data for high-volume screening.")
+    st.markdown("Upload a cleaned CSV file containing transaction data for high-volume screening.")
     
     uploaded_file = st.file_uploader("Upload CSV File", type="csv")
     
